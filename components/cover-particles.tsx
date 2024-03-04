@@ -25,21 +25,15 @@ export const CoverParticles = () => {
                     fpsLimit: 120,
                     interactivity: {
                         events: {
-                            onClick: {
-                                enable: true,
-                                mode: "push",
-                            },
-                            onHover: {
-                                enable: true,
-                                mode: "repulse",
-                            },
+                    
+                      
                         },
                         modes: {
                             push: {
                                 quantity: 3,
                             },
                             repulse: {
-                                distance: 200,
+                                distance: 300,
                                 duration: 0.4,
                             },
                         },
@@ -53,7 +47,7 @@ export const CoverParticles = () => {
                             color: "#ffffff",
                             distance: 250,
                             enable: true,
-                            opacity: 0.2,
+                            opacity: 0.1,
                             width: 1,
                         },
                         move: {
@@ -70,10 +64,10 @@ export const CoverParticles = () => {
                             density: {
                                 enable: true,
                             },
-                            value: 30,
+                            value: 40,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 0.2,
                         },
                         shape: {
                             type: "circle",

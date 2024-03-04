@@ -1,15 +1,15 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech,Github,Server,Blocks,PanelsTopLeft,CloudCog,PhoneForwarded } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,Github,Server,Blocks,PanelsTopLeft,CloudCog,PhoneForwarded,SquareUser,Library } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/sremaggi",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/sebasti%C3%A1n-ignacio-remaggi-flores-5a558b294/",
     },
 
 ];
@@ -24,20 +24,20 @@ export const itemsNavbar = [
     },
     {
         id: 2,
-        title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+        title: "About",
+        icon: <SquareUser size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        title: "Services",
+        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
-        title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        title: "Portafolio",
+        icon: <Library size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     }
 ];
@@ -144,8 +144,8 @@ export const dataPortfolio = [
         id: 2,
         title: "Portafolio",
         image: "/mp1.png",
-        urlGithub: "https://github.com/sremaggi/primeravista2",
-        urlDemo: "https://primeravista-50b01.web.app/",
+        urlGithub: "https://github.com/sremaggi/portafolio",
+        urlDemo: "https://sremaggi.dev",
     }
 ];
 

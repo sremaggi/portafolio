@@ -17,9 +17,8 @@ const Introduction = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center max-w-md ml-2">
-        <h1 className="mb-1 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-3">
+          <h1 className="mb-1 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-3">
             Sebastián Remaggi Flores
-       
           </h1>
           <h3 className="mb-1 text-xl leading-tight text-center md:text-left md:text-2xl md:mb-3">
             Software
@@ -32,12 +31,14 @@ const Introduction = () => {
             />
           </h3>
 
-
-
-
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <a
-              href="/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1jcOMuaiN6ej4_MpThs1heraQgjxeSOZb/view?usp=sharing"
+              onClick={() => {
+                console.log("download");
+              }}
               className="px-3 py-2 my-1 transition-all border-2 cursor-pointer text-md w-fit  text-slate-100 border-secondary rounded-xl hover:shadow-md hover:shadow-secondary"
             >
               Download CV

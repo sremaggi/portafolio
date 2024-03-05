@@ -136,14 +136,16 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Primera Vista Hospedaje",
-        image: "/pv1.png",
+        image: "/pv1.jpg",
+        imageBase64:"",
         urlGithub: "https://github.com/sremaggi/primeravista2",
         urlDemo: "https://primeravista-50b01.web.app/",
     },
     {
         id: 2,
-        title: "Portafolio",
-        image: "/mp1.png",
+        title: "Portfolio",
+        image: "/mp1.jpg",
+        imageBase64:"",
         urlGithub: "https://github.com/sremaggi/portafolio",
         urlDemo: "https://sremaggi.dev",
     }

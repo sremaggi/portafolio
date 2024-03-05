@@ -1,19 +1,18 @@
 
 
 import { dataPortfolio } from "@/data";
+import { CoverParticles } from "@/components/cover-particles";
 
-
-import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import PortfolioBox from "@/components/portfolio-box";
-import { CoverParticles } from "@/components/cover-particles";
+
 
 
 const PortfolioPage = () => {
 
     return (
         <ContainerPage>
-            <TransitionPage />
+   
             <CoverParticles />
      
             <div className="flex flex-col justify-center h-full">

@@ -10,7 +10,7 @@ import TransitionPage from "@/components/transition-page";
 const AboutMePage = () => {
     return (
         <>
-            <TransitionPage />
+      
             <CoverParticles />
             <ContainerPage>
             <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">My <span className="font-bold text-secondary">Profesional Career</span></h1>

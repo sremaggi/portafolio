@@ -4,9 +4,9 @@ import { TypeAnimation } from "react-type-animation";
 const Introduction = () => {
   return (
     <div className="z-10 w-full bg-darkBg/60">
-      <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-        <div className="flex justify-center md:justify-end ">
-          <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden ">
+      <div className="z-20 grid items-center h-full  py-36 md:py-0 md:grid-cols-2">
+        <div className="flex justify-center md:justify-end">
+          <div className="relative w-[200px] h-[200px] rounded-full overflow-hidden">
             <Image
               src="/av-1.jpeg"
               priority
@@ -39,7 +39,7 @@ const Introduction = () => {
               onClick={() => {
                 console.log("download");
               }}
-              className="px-3 py-2 my-1 transition-all border-2 cursor-pointer text-md w-fit  text-slate-100 border-secondary rounded-xl hover:shadow-md hover:shadow-secondary"
+              className="px-3 py-2 my-1 transition-all border-2 cursor-pointer text-md w-fit text-slate-100 border-secondary rounded-xl hover:shadow-md hover:shadow-secondary"
             >
               Download CV
             </a>

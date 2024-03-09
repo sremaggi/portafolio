@@ -16,20 +16,21 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
   const { id, title, image, urlDemo, urlGithub } = data;
 
   return (
+    
     <div key={id} className="p-4 border border-teal-50 rounded-xl w-full md:min-w-[300px]">
       <h3 className="mb-4 text-xl">{title}</h3>
       <Image
         src={image}
         alt="Image"
         width={400}
-        height={100}
+        height={150}
         className="hidden md:block w-full md:w-[500px] rounded-2xl"
       />
 
-<Image
+      <Image
         src={image}
         alt="Image"
-        width={100}
+        width={400}
         height={100}
         className="block md:hidden w-full md:w-[500px] rounded-2xl"
       />
